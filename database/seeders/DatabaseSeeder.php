@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
         $tenant->save();
 
         $tenant->domains()->create([
-            'domain' => 'foo.psaas.io'
+            'domain' => 'test.psaas.io'
         ]);
     }
 }
